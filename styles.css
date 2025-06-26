@@ -148,6 +148,74 @@ body{
     padding-bottom: 15px;
 }
 
+#ProjectOne{
+    cursor: pointer;
+}
+
+#ProjectOne:hover{
+    outline: 5px solid white;
+}
+
+.ContentBanner{
+    background-color: #121214;
+    animation: fadeIn 1.2s ease-in;
+}
+
+.ContentImage{
+    max-width: 100%;
+    max-height: 300px;
+    padding: 30px;
+    border: 10px solid #64359c;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.BackItem{
+    background-color: #9841FF;
+    padding: 30px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    animation: fadeIn 1.2s ease-in;
+    border-radius: 5px;
+    max-width: 55%;
+    overflow: hidden;
+    display: inline-block;
+    border-bottom: 20px solid #64359c;
+    border-right: 20px solid #64359c;
+    border-left: 10px solid #64359c ;
+    transition: 
+        border-bottom-width 0.25s ease,
+        border-right-width 0.25s ease,
+        border-left-width 0.25s ease;
+        border-bottom: 50%;
+    cursor: pointer;
+     transition-delay: 0.05s;
+}
+
+.BackItem:hover {
+  border-bottom-width: 10px;
+  border-right-width: 10px;
+}
+
+.MainContent{
+    color: #fff;
+    text-align: center;
+}
+
+.ContentTitle{
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+
+.ContentText{
+    font-size: 1em;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
 @keyframes fadeIn {
       from {
         opacity: 0;
@@ -185,4 +253,16 @@ body{
         margin-left: 0px;
         padding: 35px;
     }
+
+    .ContentImage{
+        padding: 5px;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .ContentText{
+        max-width: 85%;
+        font-size: 0.9em;
+    }
+
 }

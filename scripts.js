@@ -8,3 +8,11 @@ document.querySelector('#ProjectOne').addEventListener('click', function(e) {
         window.location.href = 'projectOne.html';
     }, 250); 
 }, false);
+
+function RedirectHome() {
+    window.location.href = "index.html";
+}
+
+function RedirectGithub() {
+    window.open("https://www.github.com/Kuromidev", "_blank");
+    }
