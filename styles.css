@@ -121,6 +121,7 @@ body{
     background-repeat: no-repeat;
     background-image: url(images/Fractal.jpg);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
 .ProjectBanner{
