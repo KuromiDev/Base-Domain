@@ -283,4 +283,7 @@ body{
         font-size: 0.9em;
     }
 
+    body{
+        letter-spacing: 2px;
+    }
 }
