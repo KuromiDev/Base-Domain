@@ -182,6 +182,8 @@ body{
     border: 10px solid #64359c;
     border-radius: 10px;
     margin-bottom: 20px;
+    user-select: none; 
+    pointer-events: auto; 
 }
 
 .BackItem{
