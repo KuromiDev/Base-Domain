@@ -9,8 +9,17 @@ html {
 }
 
 body{
-    font-family: Arial black, sans-serif;
+    font-family: Minecraft, bold;
+    font-weight: 200;
     text-align: center;
+}
+
+@font-face { 
+  font-family: "Minecraft";
+  font-style: normal;
+  font-weight: 200;
+  src: 
+    url(fonts/Minecraft.ttf) format("truetype");
 }
 
 .Banner {
@@ -217,7 +226,7 @@ body{
 }
 
 .ContentText{
-    font-size: 1em;
+    font-size: 1.25em;
     max-width: 50%;
     margin: 0 auto;
     margin-top: 10px;
