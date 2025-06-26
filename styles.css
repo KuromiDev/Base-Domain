@@ -50,7 +50,7 @@ body{
 
 #MainLogo{
     max-width: 150px;
-    margin-top: 50px;
+    margin-top: -5px;
     margin-bottom: 20px;
 }
 
@@ -58,10 +58,6 @@ body{
 
     margin-bottom: 20px;
     font-size: 2.5em;
-}
-
-#TitleSubtext{
-    margin-bottom: -50px;
 }
 
 .ContactBanner{
