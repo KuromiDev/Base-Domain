@@ -93,6 +93,7 @@ body{
     transition-delay: 0.05s;
     user-select: none; 
     pointer-events: auto; 
+    color: #fff;
 }
 
 #ContactItem2{
@@ -125,6 +126,7 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     user-select: none; 
     pointer-events: auto; 
+    color: #fff;
 }
 
 .ProjectBanner{
@@ -196,6 +198,7 @@ body{
     transition-delay: 0.05s;
     user-select: none; 
     pointer-events: auto; 
+    color: #fff;
 }
 
 .BackItem:hover {
