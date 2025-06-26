@@ -230,6 +230,7 @@ body{
 @media (max-width: 768px) {
     .Project{
         margin-left: 0px;
+        padding: 100px;
     }
 
     #ProjectFive{
