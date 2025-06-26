@@ -90,7 +90,9 @@ body{
         border-left-width 0.25s ease;
         border-bottom: 50%;
     cursor: pointer;
-     transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    user-select: none; 
+    pointer-events: auto; 
 }
 
 #ContactItem2{
@@ -100,7 +102,7 @@ body{
 .ContactItem:hover {
   border-bottom-width: 10px;
   border-right-width: 10px;
-  margin-bottom: -10px;
+
 }
 
 .Project{
@@ -121,7 +123,8 @@ body{
     background-repeat: no-repeat;
     background-image: url(images/Fractal.jpg);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
+    user-select: none; 
+    pointer-events: auto; 
 }
 
 .ProjectBanner{
@@ -190,7 +193,9 @@ body{
         border-left-width 0.25s ease;
         border-bottom: 50%;
     cursor: pointer;
-     transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    user-select: none; 
+    pointer-events: auto; 
 }
 
 .BackItem:hover {
