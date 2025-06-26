@@ -119,6 +119,10 @@ body{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.ProjectBanner{
+    padding-bottom: 35px;
+}
+
 .Project:hover {
       transform: translateY(-10px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -130,6 +134,13 @@ body{
 
 .ProjectSubtext{
     font-size: 1em;
+}
+
+.Credits{
+    background-color: #121214;
+    animation: fadeIn 1.2s ease-in;
+    color: #fff;
+    padding-bottom: 15px;
 }
 
 @keyframes fadeIn {
@@ -154,5 +165,9 @@ body{
 
     #TitleSubtext{
     margin-bottom: 0px;
-}
+    }
+
+    .Credits{
+        padding-bottom: 25px;
+    }
 }
