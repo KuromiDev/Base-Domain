@@ -75,7 +75,6 @@ body{
     background-color: #9841FF;
     padding: 30px;
     margin-top: 30px;
-
     position: relative;
     animation: fadeIn 1.2s ease-in;
     border-radius: 5px;
@@ -91,7 +90,10 @@ body{
         border-left-width 0.25s ease;
         border-bottom: 50%;
     cursor: pointer;
-    
+}
+
+#ContactItem2{
+    margin-left: 50px;
 }
 
 .ContactItem:hover {
@@ -170,5 +172,15 @@ body{
 
     .Credits{
         padding-bottom: 25px;
+    }
+
+    .ContactItem{
+        margin-right: 0px;
+    }
+
+    #ContactItem2{
+        margin-bottom: 10px;
+        margin-left: 0px;
+        padding: 35px;
     }
 }
