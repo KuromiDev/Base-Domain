@@ -90,6 +90,7 @@ body{
         border-left-width 0.25s ease;
         border-bottom: 50%;
     cursor: pointer;
+     transition-delay: 0.05s;
 }
 
 #ContactItem2{
