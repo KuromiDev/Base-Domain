@@ -286,4 +286,8 @@ body{
     body{
         letter-spacing: 2px;
     }
+
+    #MainTitle{
+        letter-spacing: 6px;
+    }
 }
