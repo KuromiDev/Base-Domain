@@ -24,9 +24,6 @@ body{
 
 .Banner {
     padding: 75px 20px;
-    /* background-image: radial-gradient(circle, #121214 35%, transparent 75%);
-    background-image: linear-gradient(to right, #121214, transparent, #121214);
-    background-image: linear-gradient(to bottom, #121214, transparent, #121214); */
     background-image: 
         radial-gradient(circle, #121214 35%, transparent 75%),
         linear-gradient(to right, #121214, transparent, #121214),
@@ -125,7 +122,6 @@ body{
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    position: relative;
     overflow: hidden;
     max-width: 100%;
     background-size: 100%;
@@ -170,6 +166,15 @@ body{
     outline: 5px solid white;
 }
 
+#ProjectTwo{
+    cursor: pointer;
+}
+
+#ProjectTwo:hover{
+    outline: 5px solid white;
+}
+
+
 .ContentBanner{
     background-color: #121214;
     animation: fadeIn 1.2s ease-in;
@@ -183,7 +188,6 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
     user-select: none; 
-    pointer-events: auto; 
 }
 
 .BackItem{

@@ -9,6 +9,13 @@ document.querySelector('#ProjectOne').addEventListener('click', function(e) {
     }, 250); 
 }, false);
 
+document.querySelector('#ProjectTwo').addEventListener('click', function(e) {
+    e.preventDefault();
+    setTimeout(function() {
+        window.location.href = 'projectTwo.html';
+    }, 250); 
+}, false);
+
 function RedirectHome() {
     window.location.href = "index.html";
 }
