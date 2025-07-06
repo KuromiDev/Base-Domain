@@ -16,6 +16,13 @@ document.querySelector('#ProjectTwo').addEventListener('click', function(e) {
     }, 250); 
 }, false);
 
+document.querySelector('#ProjectThree').addEventListener('click', function(e) {
+    e.preventDefault();
+    setTimeout(function() {
+        window.location.href = 'projectThree.html';
+    }, 250); 
+}, false);
+
 function RedirectHome() {
     window.location.href = "index.html";
 }
